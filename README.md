@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+
 # LLM De-Identification Pipeline
 
 A modular pipeline for **training and deploying LLMs (e.g. Gemma 3:27B)** for medical text de-identification.
