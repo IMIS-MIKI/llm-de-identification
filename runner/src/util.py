@@ -105,11 +105,6 @@ whitelist = [
     "Unauffälliger Befund.",
     "Befund folgt.",
     "wird nachgereicht",
-    "BI-RADS 2 beidseits.",
-    "Beidseits BI-RADS 2.",
-    "Beidseits BI-RADS 2. ",
-    "Keine zervikalen Traumafolgen.",
-    "Siehe Befund Mammographie vom selben Datum.",
     ""
     "Keine Traumafolgen."
 ]
