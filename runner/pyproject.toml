@@ -1,0 +1,36 @@
+[project]
+name = "llm-anonymization-runner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["annotated-types",
+    "anyio",
+    "certifi",
+    "charset-normalizer",
+    "exceptiongroup",
+    "h11",
+    "httpcore",
+    "httpx",
+    "idna",
+    "jsonpatch",
+    "jsonpointer",
+    "kafka-python",
+    "langchain-core",
+    "langchain-ollama",
+    "langsmith",
+    "ollama",
+    "orjson",
+    "packaging",
+    "pydantic",
+    "pydantic_core",
+    "python-dotenv",
+    "PyYAML",
+    "requests",
+    "requests-toolbelt",
+    "sniffio",
+    "tenacity",
+    "tqdm",
+    "typing_extensions",
+    "urllib3"
+]
