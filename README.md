@@ -1,4 +1,5 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+[![DOI](https://zenodo.org/badge/1186101920.svg)](https://doi.org/10.5281/zenodo.19109536)
 
 # LLM De-Identification Pipeline
 
