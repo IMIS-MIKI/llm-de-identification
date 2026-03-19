@@ -11,15 +11,12 @@ RAW_DIR = 'raw'
 DATA_DIR = 'data'
 
 
-def load(datasets: List[Literal["uksh-ris", "uksh-anamnese", "2024-043"]] | None = None):
+def load(datasets):
     """Load dataset available for finetuning of the model. These correspond to initial ris+anamnese data request and
     future data anonymized. This data needs to be manually checked and curated to be eligible for fine-tuning.
     Afterward, just add the new batch to the list and how to fetch it.
     Final data should be a dictionary where each entry is {'processed': anonimized-text, 'text': original text}
     """
-
-    if datasets is None:
-        datasets = ["uksh-ris", "uksh-anamnese", "2024-043"]
 
     results = dict()
 
@@ -131,7 +128,6 @@ def create_gemma_dataset(formatted_data, tokenizer):
 
 # Just for testing - actual run in finetune_gemma3_27b
 if __name__ == '__main__':
-    data = load()
+    data = load(['your_dataset_name'])
     conversations = convert_to_gemma3_format(data)
-    # create_gemma_dataset(conversations)
     print(conversations)
